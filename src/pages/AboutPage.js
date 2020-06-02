@@ -31,10 +31,10 @@ function AboutPage(props){
                     <p>Looking for some inspiration? You can checkout my blog link <a href="https://medium.com/@sethrinkle" target="_blank">here</a>.</p>
                 </div>
            </Content>
-           <div>
-               {/* <h2>Experience:</h2> */}
+           <div style={{marginLeft:'10%', marginTop:'5%'}}>
+               <h2>Experience:</h2>
                <Experience/>
-               {/* <h2>Education:</h2> */}
+               <h2>Education:</h2>
                <Education/>
            </div>
            
