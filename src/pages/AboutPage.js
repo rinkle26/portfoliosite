@@ -31,7 +31,14 @@ function AboutPage(props){
                     <p>Looking for some inspiration? You can checkout my blog link <a href="https://medium.com/@sethrinkle" target="_blank">here</a>.</p>
                 </div>
            </Content>
-           <div class='float-container'>
+           <div>
+               {/* <h2>Experience:</h2> */}
+               <Experience/>
+               {/* <h2>Education:</h2> */}
+               <Education/>
+           </div>
+           
+           {/* <div class='float-container'>
                
                 <div class="float-child" style={{marginRight:'10px'}}>
                 <h2>Experience</h2>
@@ -44,7 +51,7 @@ function AboutPage(props){
                     <Education/>
                 </div>
                
-           </div>
+           </div> */}
           {/* <Row class="rowC">
                <Col>
                     <Chronology style={{className:"md-3"}}/>  
