@@ -11,10 +11,10 @@ function HomePage(props){
         <Container className="p-0" fluid={true} className='background-image' style={{backgroundImage:"url("+bg+")", backgroundSize: 'cover'}}>
                 
                 <div>
-                {/* <img width="100%" height="20%" src="/bg-desktop.jpg"></img> */}
+               
                 <img style={{padding: '2% 5%',
-        width: '40%', borderRadius:'50%', marginLeft:'auto', marginRight:'auto', display:'block'}} src="/WhatsApp Image 2019-11-17 at 16.06.49.jpeg"></img>
-            <h4 style={{fontSize:'1.5vw', textAlign:'center', color:'#bfbaba', paddingBottom:'9%', marginBottom:'0rem'}}>Welcome! I am a full stack software developer located in Dallas, Texas.<br/> Excited to work with you!</h4>
+        width: '650px', borderRadius:'50%', marginLeft:'auto', marginRight:'auto', display:'block'}} src="/WhatsApp Image 2019-11-17 at 16.06.49.jpeg"></img>
+            <h4 style={{fontSize:'2vw', textAlign:'center', color:'#bfbaba', paddingBottom:'9%', marginBottom:'0rem'}}>Welcome! I am a full stack software developer located in Dallas, Texas.<br/> Excited to work with you!</h4>
                 </div>
                 
         </Container>

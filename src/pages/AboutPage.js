@@ -45,15 +45,7 @@ function AboutPage(props){
                 </div>
                
            </div>
-          {/* <Row class="rowC">
-               <Col>
-                    <Chronology style={{className:"md-3"}}/>  
-               </Col> 
-               <Col>
-                    <Chronology style={{className:"md-3"}}/>  
-               </Col> 
-          </Row> */}
-
+      
        </div>
     );
 

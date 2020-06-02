@@ -86,7 +86,7 @@ code {
 }
 
 .float-child {
-  width: 49%;
+  /* width: 49%; */
   float: left;
   padding: 40px;
 
