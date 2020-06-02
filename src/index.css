@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.g-card{
+  margin:20px;
+}
+
+.g-card-image{
+  
+  width:350px;
+  height:420px;
+  margin:40px 30px 10px 20px;
+  box-shadow:6px 6px 3px 2px #ccc;
+  /* border-radius:10px; */
+}
+
+.g-card-info{
+  min-height:100px;
+  margin-top:0px;
+  text-align:center;
+}
+
+.g-card-title{
+  font-size:24px;
+  margin:0px;
+}
+
+
+.g-card-sub-title{
+  font-size:16px;
+  margin:0px;
+}
+
+.success-msg{
+  color:#57A773;
+  padding: 10px 15px;
+}
+
+.err-msg{
+  color:#EE6352;
+  padding: 10px 15px;
+}
+
+.social.social-white-alt a {
+  background: transparent;
+  color: #ffffff80;
+  font-size: 1.8rem;
+  width: auto;
+  height: auto;
+}
+.social.social-white-alt a:hover {
+  background: transparent;
+  color: #fff;
+  box-shadow: none;
+}
+.list-inline {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.timeline--wrapper{
+  width: calc(50% - 24px)
+}
+
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+
+}
+
+.float-child {
+  width: 49%;
+  float: left;
+  padding: 40px;
+
+}  
+
+.margin{
+  margin-top:10px;
+}
+
+.font-cursive{
+  font-family:Helvetica, sans-serif;
+  font-size:18px;
+}
